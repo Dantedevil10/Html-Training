@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.thelaxt{
+    background-image: url('TLou.jpg');
+    background-size: cover;
+    
+}
