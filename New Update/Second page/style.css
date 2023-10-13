@@ -1,0 +1,156 @@
+@font-face {
+    font-family:ancientmedium ;
+    src: url('Ancient Medium.ttf');
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    
+    display: flex;
+    background-color: rgba(32, 32, 32 );
+    align-items: center;
+    
+}
+.topocabecalho{  /*figure no header */
+    height: 80px;
+    width: 110px;
+    background-color:rgb(32, 32, 32);
+    
+}
+#minhalogo{
+    height: 80px;
+    width: 110px;
+    padding-left: 20px ;
+    
+}
+.icones1{
+   
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    gap: 80px;
+    
+}
+.itens{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: ancientmedium;
+    font-size: 30px;
+    transition:  border 0.5s ;
+    transition: all 0.3s ;
+}
+.itens:hover{
+    border: 2px solid rgb(96 ,96 ,96);
+    border-radius: 30px;
+    padding: 7px;
+    transform: scale(1.2);
+}
+/*ate aqui tudo no header */
+main{
+    width: 100%;
+    height:100%;
+    background-color: rgb(32 ,32 ,32);
+    
+    
+}
+.menu{
+    width: 90px;
+    height: 100%;
+    background-color: rgba(32, 32, 32 );
+    position: fixed;
+    box-shadow: 0px 5px 50px black;
+}
+/*aqui no main */
+.imgemike{
+    display: flex;
+    justify-content: center;
+    background-image: url(mikeblur.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+}
+.itemmike img{
+    box-shadow: 5px 5px 5px black;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.letmike{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    top: 20%;
+    left: 25%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.songs img{
+    border-radius: 5px;
+}
+.songs-container2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 107%;
+    right:50% ;
+}
+.songs-container{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    margin-right: 20px;
+    
+}
+.songs{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 5px;
+    transition: box-shadow 0.5s ;
+    transform: color 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.songs:hover{
+    box-shadow: 0px 0px 10px;
+    background-color: rgb(40 ,40 ,40);
+}
+.nomesmusic{
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+/*agora no footer */
+
+#one{
+    color: white;
+    left: 20px;
+    position: absolute;
+    top: 80%;
+    font-family: ancientmedium;
+    font-size:90px;
+    text-shadow: 0px 10px 0px black;
+}
+
+.partefinal{
+    height: 100%;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    gap: 60px;
+    
+}
+.partefinal h2{
+    color: aliceblue;
+    
+}
+#partinha{
+    padding-left: 100px;
+}
