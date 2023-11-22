@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+.container{
+    overflow: hidden;
+    width: 70px;
+    height: 30px;
+    background: rgb(220 ,220, 220);
+    border-radius: 30px;
+}
+.background{
+    
+    width: 0px;
+    transition: width 0.3s ease;
+    height: 30px;
+    background: rgb(0 ,180, 70);
+    border-radius: 30px;
+}
+.circulo{
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: left 0.3s;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: red;
+}
