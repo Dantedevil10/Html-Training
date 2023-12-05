@@ -5,6 +5,21 @@
     color: aliceblue;
     text-decoration: none;
 }
+.menubar{
+        
+    position: fixed;
+    width: 0px;
+    height: 100%;
+    top: -1px;
+    z-index: 9;
+    transition: all 0.4s ease;
+}
+
+
+
+
+
+
 
 .menu{
     position: fixed;
@@ -13,7 +28,7 @@
     width: 0px;
     background-color: aliceblue;
     transition: all 1.0s ease;
-    box-shadow: 4px 4px 4px black;
+    
 }
 .menu h1{
     color: #0c0e11;
@@ -30,6 +45,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 999;
 }
 header h1{
     color: aliceblue;
